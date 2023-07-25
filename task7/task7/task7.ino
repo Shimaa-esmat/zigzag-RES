@@ -14,7 +14,7 @@ char keys[rows][cols] = {
 byte rowpins[rows] = {13,12,11,10};
 byte colpins[cols] = {9,8,7,6};
 LiquidCrystal lcd(A0,A1,A2,A3,A4,A5);
-Keypad keypad = Keypad (makeKeymap (keys),rowpins ,colpins, rows, cols);
+Keypad keypad = Keypad (makeKeymap (keys),rowpins ,colpins, cols, rows);
 
 void setup() {
  lcd.begin(16,2);
