@@ -1,1 +1,1 @@
-# zigzag-RES-C
+# zigzag-RES
